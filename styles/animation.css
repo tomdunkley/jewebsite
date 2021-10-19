@@ -1,0 +1,26 @@
+.box {
+}
+
+body {
+    overflow: hidden;
+}
+
+.grow {
+  animation-duration: 0.7s;
+  animation-name: changeHeight;
+  animation-fill-mode: forwards;
+}
+
+@keyframes changeHeight {
+  100% {
+    transform: translateY(-120%);
+  }
+}
+
+#img1 {display:block;}
+#img2 {display:none}
+
+@media all and (max-width: 1000px) {
+    #img1 {display: none;}
+    #img2 {display: block;}
+}

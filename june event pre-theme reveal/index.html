@@ -1,0 +1,189 @@
+<head>
+    <Title>June Event 2021</Title>
+    <meta name="description" content="Sidney Sussex June Event - find us on Instagram and Facebook">
+    <meta name="keywords" content="Sidney, Sussex, Sidney Sussex, June Event, May Ball, Cambridge, Event, Events, Party, 2021, Cambridge, Best May Balls">
+    <meta name="author" content="td457">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="clippy/build/clippy.css" media="all">
+    <style>
+body {
+
+    background-image: url('assets/background.png');
+    background-size: cover;
+    color:white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 17px;
+++
+}
+
+a {
+  color: #363636;
+}
+
+img {
+   border: 10px solid transparent;
+   }
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+.vertical-center {
+  top: 32%;
+  left: 50%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 30;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+
+a:-webkit-any-link
+{
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .loading {
+    display: none;
+  }
+
+  .logo {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  img.logo {
+    max-height: 35vh;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+  .loading {
+    display: grid;
+  }
+
+
+  img.logo {
+    max-height: 15vh;
+  }
+}
+
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<!--
+<img style="transform: translate(50vw-50%,0); border: 5px solid #555;  height:50%" src="assets/background-theme-gif-transparent.gif">
+-->
+
+<div class="loading" style="height: 90%;">
+    <img id="animation" style="max-width: 100%; max-height: 85vh; margin: auto;" src='assets/animatedjereversed.png' usemap="#imglink">
+</div>
+
+<div class="logo" style="position: absolute; right: 10; bottom: 10; display: grid;">
+    <img class="logo" style="max-width: 100%; margin: auto;" src='assets/prereleaselogo.png'>
+</div>
+
+
+<div class="footer">
+    <a href="mailto:enquiries@juneevent.co.uk">
+        <img border="-2" src="icons/email.png" height="22">
+    </a>
+    <a href="https://www.facebook.com/JuneEvent">
+        <img border="-2" src="icons/facebook.png" height="22">
+    </a>
+    <a href="https://www.instagram.com/sidneyjuneevent/">
+        <img border="-2" src="icons/instagram.png" height="22">
+    </a>
+</div>
+
+<!-- jQuery 1.7+ -->
+<script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+
+<!-- Clippy.js -->
+<script src="clippy/build/clippy.min.js"></script>
+
+<script>
+
+
+var a;
+
+var finalClippyLine = false;
+
+
+function run(agent) {
+agent.moveTo(screen.width*1.2, screen.height*0.7);
+setTimeout(function() {
+agent.moveTo(screen.width*0.82, screen.height*0.7);
+  agent.show();
+
+
+  setTimeout(function() {
+    agent.speak("hmmm...");
+    setTimeout(function() {
+    agent.speak("This seems to be taking a while.");
+    setTimeout(function() {
+    agent.speak("And I'm sure June Event was supposed to be last year.");
+    setTimeout(function() {
+    agent.speak("Maybe, if we go back to 2020...");
+    setTimeout(function() {
+    agent.speak("Wanna go back in time and have a look? ................................................ ............................................", 10000000);
+    setTimeout(function() {
+    finalClippyLine = true;
+}, 1000);
+}, 3000);
+}, 5000);
+}, 3000);
+}, 3000);
+}, 3000);
+}, 10000);
+
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    var width = (window.innerWidth > 0) ? window.innerWidth : document.documentElement.clientWidth;
+    if (width > 1024) {
+        clippy.load('Clippy', run);
+    }
+  
+});
+
+
+setInterval(onTimerTick, 1000);
+
+function onTimerTick(){
+    if (finalClippyLine) {
+        document.getElementsByClassName("clippy-content")[0].innerHTML = "Wanna go back in time and have a look?<br><br><button onclick='window.location = "+'"desktop.html"'+";' class='button' style='background-color: #FFC'>OK</button> ";
+    }
+    else{
+        document.getElementsByClassName("clippy")[0].style.pointerEvents = "none";
+    }
+}
+
+
+
+</script>
+
+
+</body>
+

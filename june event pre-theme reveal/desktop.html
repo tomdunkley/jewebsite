@@ -1,0 +1,1180 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Windows 95</title>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="windows.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="clippy/build/clippy.css" media="all">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="windows.js"></script>
+    <script src="draggable.js"></script>
+</head>
+
+
+<body>
+
+<div style="width:80px; height:90px; margin:auto; position:absolute; left: 2px; top: 2px;" onclick='$(document.getElementById("juneeventwebsite")).fadeIn(50);'>
+    <img height="60" src="https://daks2k3a4ib2z.cloudfront.net/57b0b52271bead8852aa6781/57c0809af6bf29ec384916b2_Internet%20Explorer.png" style="position: relative; left:10px;">
+    <div style="text-align: center; position:relative; left:2px; color:white; font-family:VT323;">
+        Internet<br>Explorer
+    </div>
+</div>
+
+<div style="width:80px; height:90px; margin:auto;  position:absolute; left: 2px; top: 112px;" onclick='$(document.getElementById("fileExplorer")).fadeIn(50);'>
+    <img height="60" src="https://www.pinclipart.com/picdir/big/453-4531994_windows-95-desktop-png-windows-98-icon-png.png" style="position: relative; left:8px;">
+    <div style="text-align: center; position:relative; left:2px; color:white; font-family:VT323;">
+        My Computer
+    </div>
+</div>
+
+
+
+<div class="windowBox" id="fileExplorer" >
+    <div class="wh" id="fileExplorerheader">
+        <img style="height:12px" src="https://telegram-stickers.github.io/public/stickers/windows-95/4.png">&nbspFile Explorer
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick='{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $("body div.hide").siblings().eq(1).remove();
+                    };'
+        >X</button>
+    </div>
+
+    <p style="font-family:VT323"><u>F</u>ile    <u>E</u>dit    <u>V</u>iew    <u>T</u>ools    <u>H</u>elp</p>
+
+    <div class="floatBox">
+        <p style="font-family:VT323;">All Folders</p>
+
+                <div class="whiteBox" style="font-family:VT323; background-color:#FFFFFF;">
+                    <button class="collapsible" style="background-color:#FFFFFF;"></button>&nbsp;Music
+                    <div class="content">
+                        <div class="whiteBox" style="font-family:VT323; background-color:#FFFFFF;">
+                            <button class="collapsible" style="background-color:#FFFFFF;"></button>&nbsp;absolute jams
+                            <div class="content">
+                                <hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('elatantestwav')).fadeIn(50);">elatan.mp3</a>
+                                <br/><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('faterleetestwav')).fadeIn(50);">faterlee.mp3</a>
+                                <br/><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('lipstestwav')).fadeIn(50);">lips.mp3</a>
+                                <br/><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('otannenbaumtestwav')).fadeIn(50);">otannenbaum.mp3</a>
+                                <br/><hr style="display:inline-block" color="#00000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('runningwaterstestwav')).fadeIn(50);">runningwaters.mp3</a>
+                                <br/><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('siestatestwav')).fadeIn(50);">siesta.mp3</a>
+                                <br/><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('somethingelatedtestwav')).fadeIn(50);">somethingelated.mp3</a>
+                                <br/><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('tequilatestwav')).fadeIn(50);">tequila.mp3</a>
+                                <br/><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('thepirateandthedancertestwav')).fadeIn(50);">thepirateandthedancer.mp3</a>
+                                <br/><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('underworldtestwav')).fadeIn(50);">underworld.mp3</a>
+                                <br/><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('unitytestwav')).fadeIn(50);">unity.mp3</a>
+
+                            </div>
+                        </div>
+                        <div class="whiteBox" style="font-family:VT323; background-color:#FFFFFF;">
+                            <button class="collapsible" style="background-color:#FFFFFF;"></button>&nbsp;transmissions
+                            <div class="content">
+                                <hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('whitenoisetestwav')).fadeIn(50);">t1596.mp3</a>
+                                <br/><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('noisetestwav')).fadeIn(50);">t2021.mp3</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        <div class="whiteBox" style="font-family:VT323; background-color:#FFFFFF;">
+            <button class="collapsible" style="background-color:#FFFFFF;"></button>&nbsp;Pictures
+            <div class="content"><div class="whiteBox" style="font-family:VT323; background-color:#FFFFFF;">
+                <button class="collapsible" style="background-color:#FFFFFF;"></button>&nbsp;Dive (2019)
+                <div class="content">
+                    <hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('ballpng')).fadeIn(50);">ball.png</a>
+                    <br><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('boatpng')).fadeIn(50);">boat.png</a>
+                    <br><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('chairpng')).fadeIn(50);">chair.png</a>
+                    <br><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('marqueepng')).fadeIn(50);">marquee.png</a>
+                    <br><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('tentaclepng')).fadeIn(50);">tentacle.png</a>
+                    <br><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('treepng')).fadeIn(50);">tree.png</a>
+                </div>
+            </div>
+                <hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('978026166068711png')).fadeIn(50);">978026166068711.png</a>
+                <br><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('framepng')).fadeIn(50);">frame.png</a>
+                <br><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('rvftujponbslwfrvbmtpng')).fadeIn(50);">rvftujponbslwfrvbmt.png</a>
+
+            </div>
+        </div>
+
+
+        <div class="whiteBox" style="font-family:VT323; background-color:#FFFFFF;">
+            <button class="collapsible" style="background-color:#FFFFFF;"></button>&nbsp;Videos
+            <div class="content">
+                <hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('2016mp4')).fadeIn(50);">2016.mp4</a>
+                <br><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('2018mp4')).fadeIn(50);">2018.mp4</a>
+                <br><hr style="display:inline-block" color="#000000" width="1" size="12">&nbsp;<a onclick="$(document.getElementById('2019mp4')).fadeIn(50);">2019.mp4</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</div>
+
+<div class="windowBox" id="juneeventwebsite">
+    <div class="wh" id="juneeventwebsiteheader">
+        <img style="height:12px" src="https://daks2k3a4ib2z.cloudfront.net/57b0b52271bead8852aa6781/57c0809af6bf29ec384916b2_Internet%20Explorer.png">&nbspjuneevent.co.uk
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick='{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $("body div.hide").siblings().eq(1).remove();
+                    };'
+        >X</button>
+    </div>
+
+    <div id="innerNet" class="win95" align="center"  text="#ff1493" link="#0000ff" alink="#800080" vlink="#ff0000" style='background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/03/Animated_pink_cat.gif"); background-repeat: repeat; width: 45vw; height: 50vh'>
+
+        <div style="background-color: coral; margin: auto; width: 65%; min-height:100%;">
+            <br>
+            <img src="assets/prereleaselogo.png" width="200px">
+            <p>
+            <button type="button" style='width:200px; font-family: "Comic Sans MS", "Comic Sans", cursive; font-size: 15px;"'
+                    onclick="$('#innerNet').load('file://assets/people.html');">People</button>
+                <br>
+            <button type="button" style='width:200px; font-family: "Comic Sans MS", "Comic Sans", cursive; font-size: 15px;"'
+                    onclick="$('#innerNet').load('file://assets/tickets.html');">Tickets</button>
+                <br>
+            <button type="button" style='width:200px; font-family: "Comic Sans MS", "Comic Sans", cursive; font-size: 15px;"'
+                    onclick="$('#innerNet').load('file://assets/info.html');">Info</button>
+
+            </p>
+            <br>
+            <div class="footer">
+                <a href="mailto:enquiries@juneevent.co.uk" style="text-decoration:none">
+                    <img border="-2" src="icons/email.png" height="22">
+                </a>
+                <a href="https://www.facebook.com/JuneEvent" style="text-decoration:none">
+                    <img border="-2" src="icons/facebook.png" height="22">
+                </a>
+                <a href="https://www.instagram.com/sidneyjuneevent/" style="text-decoration:none">
+                    <img border="-2" src="icons/instagram.png" height="22">
+                </a>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</div>
+
+<div class="windowBox" id="solitaire">
+    <div class="wh" id="solitaireheader">
+        <img style="height:12px" src="assets/solitaire_icon.png">&nbspSolitaire
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick='{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $("body div.hide").siblings().eq(1).remove();
+                    };'
+        >X</button>
+    </div>
+
+    <div style="width:892px; height:626px;">
+        <div id="solitaire_embed" style="width:100%;">
+            <div style="position:relative;padding-bottom:70%;border-radius:0px;overflow:hidden;">
+                <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;border:0px;" frameBorder="0" width="100%" height="100%" allowfullscreen="false" src="https://online-solitaire.com/solitaire-turn-one?platform=embed&logo=null&card_color=null&background_color=null&show_spotlight=true" title="Play Klondike (Turn One) and many more Solitaire games at Online Solitaire"></iframe>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="windowBox" id="minesweeper">
+    <div class="wh" id="minesweeperheader" style="position:absolute; width:98%">
+        <img style="height:12px" src="http://www.sireasgallery.com/iconset/minesweeper/Mine2_024x024_32.png">&nbspMinesweeper
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick='{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $("body div.hide").siblings().eq(1).remove();
+                    };'
+        >X</button>
+    </div>
+    <div style="width:auto; height:75vhl position:absolute;">
+        <div class="minesweeper-game" data-preset="expert"></div>
+        <script src="https://minesweeper.github.io/a70de4b14c0109772a9dc7a4d43a2657210cc7d1.js"></script>
+    </div>
+
+</div>
+
+<div class="windowBox" id="ballpng">
+    <div class="wh" id="ballpngheader">
+        <img style="height:12px" src="https://community.medion.com/t5/image/serverpage/image-id/7927iE7572C2E62F0E25C/image-size/large/is-moderation-mode/true?v=1.0&px=999">&nbspball.png
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick='{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $("body div.hide").siblings().eq(1).remove();
+                    };'
+        >X</button>
+    </div>
+
+    <img width="600" src="assets/ball.png">
+</div>
+
+<div class="windowBox" id="boatpng">
+    <div class="wh" id="boatpngheader">
+        <img style="height:12px" src="https://community.medion.com/t5/image/serverpage/image-id/7927iE7572C2E62F0E25C/image-size/large/is-moderation-mode/true?v=1.0&px=999">&nbspboat.png
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick='{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $("body div.hide").siblings().eq(1).remove();
+                    };'
+        >X</button>
+    </div>
+
+    <img src="assets/boat.png" width="900">
+</div>
+
+<div class="windowBox" id="chairpng">
+    <div class="wh" id="chairpngheader">
+        <img style="height:12px" src="https://community.medion.com/t5/image/serverpage/image-id/7927iE7572C2E62F0E25C/image-size/large/is-moderation-mode/true?v=1.0&px=999">&nbspchair.png
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick='{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $("body div.hide").siblings().eq(1).remove();
+                    };'
+        >X</button>
+    </div>
+
+    <img width="745" src="assets/chair.png">
+</div>
+
+<div class="windowBox" id="marqueepng">
+    <div class="wh" id="marqueepngheader">
+        <img style="height:12px" src="https://community.medion.com/t5/image/serverpage/image-id/7927iE7572C2E62F0E25C/image-size/large/is-moderation-mode/true?v=1.0&px=999">&nbspmarquee.png
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick='{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $("body div.hide").siblings().eq(1).remove();
+                    };'
+        >X</button>
+    </div>
+
+    <img width="1000" src="assets/marquee.png">
+</div>
+
+<div class="windowBox" id="tentaclepng">
+    <div class="wh" id="tentaclepngheader">
+        <img style="height:12px" src="https://community.medion.com/t5/image/serverpage/image-id/7927iE7572C2E62F0E25C/image-size/large/is-moderation-mode/true?v=1.0&px=999">&nbsptentacle.png
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick='{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $("body div.hide").siblings().eq(1).remove();
+                    };'
+        >X</button>
+    </div>
+
+    <img width="300" src="assets/tentacle.png">
+</div>
+
+<div class="windowBox" id="treepng">
+    <div class="wh" id="treepngheader">
+        <img style="height:12px" src="https://community.medion.com/t5/image/serverpage/image-id/7927iE7572C2E62F0E25C/image-size/large/is-moderation-mode/true?v=1.0&px=999">&nbsptree.png
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick='{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $("body div.hide").siblings().eq(1).remove();
+                    };'
+        >X</button>
+    </div>
+
+    <img width="700" src="assets/tree.png">
+</div>
+
+<div class="windowBox" id="framepng">
+    <div class="wh" id="framepngheader">
+        <img style="height:12px" src="https://community.medion.com/t5/image/serverpage/image-id/7927iE7572C2E62F0E25C/image-size/large/is-moderation-mode/true?v=1.0&px=999">&nbspframe.png
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick='{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $("body div.hide").siblings().eq(1).remove();
+                    };'
+        >X</button>
+    </div>
+
+    <img src="assets/frame.png">
+</div>
+
+<div class="windowBox" id="978026166068711png">
+    <div class="wh" id="978026166068711pngheader">
+        <img style="height:12px" src="https://community.medion.com/t5/image/serverpage/image-id/7927iE7572C2E62F0E25C/image-size/large/is-moderation-mode/true?v=1.0&px=999">&nbsp978026166068711.png
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick='{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $("body div.hide").siblings().eq(1).remove();
+                    };'
+        >X</button>
+    </div>
+
+    <img src="assets/978026166068711.png">
+</div>
+
+<div class="windowBox" id="rvftujponbslwfrvbmtpng">
+    <div class="wh" id="rvftujponbslwfrvbmtpngheader">
+        <img style="height:12px" src="https://community.medion.com/t5/image/serverpage/image-id/7927iE7572C2E62F0E25C/image-size/large/is-moderation-mode/true?v=1.0&px=999">&nbsprvftujponbslwfrvbmt.png
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick='{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $("body div.hide").siblings().eq(1).remove();
+                    };'
+        >X</button>
+    </div>
+
+    <img src="assets/rvftujponbslwfrvbmt.png">
+</div>
+
+<div class="windowBox" id="2019mp4">
+    <div class="wh" id="2019mp4header">
+        <img style="height:12px" src="assets/Projector.ico">&nbsp2019.mp4
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick="{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $('body div.hide').siblings().eq(1).remove();
+
+                    document.getElementById('2019mp4player').pause();
+                    document.getElementById('2019mp4player').currentTime = 0;
+                    };"
+        >X</button>
+    </div>
+
+    <video id="2019mp4player" width="700" controls>
+        <source src="assets/2019.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+    </video>
+</div>
+
+<div class="windowBox" id="2018mp4">
+    <div class="wh" id="2018mp4header">
+        <img style="height:12px" src="assets/Projector.ico">&nbsp2018.mp4
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick="{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $('body div.hide').siblings().eq(1).remove();
+
+                    document.getElementById('2018mp4player').pause();
+                    document.getElementById('2018mp4player').currentTime = 0;
+                    };"
+        >X</button>
+    </div>
+
+    <video id="2018mp4player" width="700" controls>
+        <source src="assets/2018.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+    </video>
+</div>
+
+<div class="windowBox" id="2016mp4">
+    <div class="wh" id="2016mp4header">
+        <img style="height:12px" src="assets/Projector.ico">&nbsp2016.mp4
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick="{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $('body div.hide').siblings().eq(1).remove();
+
+                    document.getElementById('2016mp4player').pause();
+                    document.getElementById('2016mp4player').currentTime = 0;
+                    };"
+        >X</button>
+    </div>
+
+    <video id="2016mp4player" width="700" controls>
+        <source src="assets/2016.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+    </video>
+</div>
+
+<div class="windowBox" id="whitenoisetestwav" style="width: 150px">
+    <div class="wh" id="whitenoisetestwavheader">
+     <img style="height:12px" src="https://lh3.googleusercontent.com/proxy/PF_2pGmKWCveWc7PnVzvNE7MDTPvghuBAxcC4frOZEVKnPDjApAMk5Nb0_0-vZkHZLUlohRQddCNr--LY7IR2NOLjqXwzwq5ZDue3QeQOvaBbxJkuOCI_Z18b_pcfsissbaR0sJ85MmL6LgtAAkjcy-J9AA">t1596.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick="{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $('body div.hide').siblings().eq(1).remove();
+                    document.getElementById('whitenoisetest').pause();
+                    document.getElementById('whitenoisetest').currentTime = 0;
+                    };"
+        >X</button>
+    </div>
+
+    <audio loop id="whitenoisetest">
+        <source src="assets/whitenoisetest.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    &nbsp;<span id="whitenoisetime"></span>
+    <p style="float:right;">
+    <button onclick="document.getElementById('whitenoisetest').play();" type="button">&nbsp;&nbsp;&nbsp;&nbsp;&#9658;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    <button onclick="document.getElementById('whitenoisetest').pause();" type="button">&nbsp;&#10074;&#10074;&nbsp;</button>
+    <button onclick="document.getElementById('whitenoisetest').pause(); document.getElementById('whitenoisetest').currentTime = 0;" type="button">&nbsp;&#9724;&nbsp;</button>
+    </p>
+</div>
+
+<div class="windowBox" id="noisetestwav" style="width: 150px">
+    <div class="wh" id="noisetestwavheader">
+     <img style="height:12px" src="https://lh3.googleusercontent.com/proxy/PF_2pGmKWCveWc7PnVzvNE7MDTPvghuBAxcC4frOZEVKnPDjApAMk5Nb0_0-vZkHZLUlohRQddCNr--LY7IR2NOLjqXwzwq5ZDue3QeQOvaBbxJkuOCI_Z18b_pcfsissbaR0sJ85MmL6LgtAAkjcy-J9AA">t2021.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick="{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $('body div.hide').siblings().eq(1).remove();
+                    document.getElementById('noisetest').pause();
+                    document.getElementById('noisetest').currentTime = 0;
+                    };"
+        >X</button>
+    </div>
+
+    <audio loop id="noisetest">
+        <source src="assets/noisetest.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+
+    &nbsp<span id="noisetime"></span>
+    <p style="float:right;">
+        <button onclick="document.getElementById('noisetest').play();" type="button">&nbsp;&nbsp;&nbsp;&nbsp;&#9658;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+        <button onclick="document.getElementById('noisetest').pause();" type="button">&nbsp;&#10074;&#10074;&nbsp;</button>
+        <button onclick="document.getElementById('noisetest').pause(); document.getElementById('noisetest').currentTime = 0;" type="button">&nbsp;&#9724;&nbsp;</button>
+    </p>
+</div>
+
+<div class="windowBox" id="lipstestwav" style="width: 150px">
+    <div class="wh" id="lipstestwavheader">
+     <img style="height:12px" src="https://lh3.googleusercontent.com/proxy/PF_2pGmKWCveWc7PnVzvNE7MDTPvghuBAxcC4frOZEVKnPDjApAMk5Nb0_0-vZkHZLUlohRQddCNr--LY7IR2NOLjqXwzwq5ZDue3QeQOvaBbxJkuOCI_Z18b_pcfsissbaR0sJ85MmL6LgtAAkjcy-J9AA">lips.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick="{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $('body div.hide').siblings().eq(1).remove();
+                    document.getElementById('lipstest').pause();
+                    document.getElementById('lipstest').currentTime = 0;
+                    };"
+        >X</button>
+    </div>
+
+    <audio loop id="lipstest">
+        <source src="assets/lips.mp3" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    &nbsp;<span id="lipstime"></span>
+    <p style="float:right;">
+<button onclick
+        ="document.getElementById('lipstest').play();" type="button">&nbsp;&nbsp;&nbsp;&nbsp;&#9658;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    <button onclick="document.getElementById('lipstest').pause();" type="button">&nbsp;&#10074;&#10074;&nbsp;</button>
+    <button onclick="document.getElementById('lipstest').pause(); document.getElementById('lipstest').currentTime = 0;" type="button">&nbsp;&#9724;&nbsp;</button>
+    </p>
+</div>
+
+<div class="windowBox" id="otannenbaumtestwav" style="width: 150px">
+    <div class="wh" id="otannenbaumtestwavheader">
+     <img style="height:12px" src="https://lh3.googleusercontent.com/proxy/PF_2pGmKWCveWc7PnVzvNE7MDTPvghuBAxcC4frOZEVKnPDjApAMk5Nb0_0-vZkHZLUlohRQddCNr--LY7IR2NOLjqXwzwq5ZDue3QeQOvaBbxJkuOCI_Z18b_pcfsissbaR0sJ85MmL6LgtAAkjcy-J9AA">otannenbaum.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick="{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $('body div.hide').siblings().eq(1).remove();
+                    document.getElementById('otannenbaumtest').pause();
+                    document.getElementById('otannenbaumtest').currentTime = 0;
+                    };"
+        >X</button>
+    </div>
+
+    <audio loop id="otannenbaumtest">
+        <source src="assets/otannenbaum.mp3" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    &nbsp;<span id="otannenbaumtime"></span>
+    <p style="float:right;">
+<button onclick
+        ="document.getElementById('otannenbaumtest').play();" type="button">&nbsp;&nbsp;&nbsp;&nbsp;&#9658;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    <button onclick="document.getElementById('otannenbaumtest').pause();" type="button">&nbsp;&#10074;&#10074;&nbsp;</button>
+    <button onclick="document.getElementById('otannenbaumtest').pause(); document.getElementById('otannenbaumtest').currentTime = 0;" type="button">&nbsp;&#9724;&nbsp;</button>
+    </p>
+</div>
+
+<div class="windowBox" id="siestatestwav" style="width: 150px">
+    <div class="wh" id="siestatestwavheader">
+     <img style="height:12px" src="https://lh3.googleusercontent.com/proxy/PF_2pGmKWCveWc7PnVzvNE7MDTPvghuBAxcC4frOZEVKnPDjApAMk5Nb0_0-vZkHZLUlohRQddCNr--LY7IR2NOLjqXwzwq5ZDue3QeQOvaBbxJkuOCI_Z18b_pcfsissbaR0sJ85MmL6LgtAAkjcy-J9AA">siesta.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick="{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $('body div.hide').siblings().eq(1).remove();
+                    document.getElementById('siestatest').pause();
+                    document.getElementById('siestatest').currentTime = 0;
+                    };"
+        >X</button>
+    </div>
+
+    <audio loop id="siestatest">
+        <source src="assets/siesta.mp3" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    &nbsp;<span id="siestatime"></span>
+    <p style="float:right;">
+<button onclick
+        ="document.getElementById('siestatest').play();" type="button">&nbsp;&nbsp;&nbsp;&nbsp;&#9658;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    <button onclick="document.getElementById('siestatest').pause();" type="button">&nbsp;&#10074;&#10074;&nbsp;</button>
+    <button onclick="document.getElementById('siestatest').pause(); document.getElementById('siestatest').currentTime = 0;" type="button">&nbsp;&#9724;&nbsp;</button>
+    </p>
+</div>
+
+<div class="windowBox" id="tequilatestwav" style="width: 150px">
+    <div class="wh" id="tequilatestwavheader">
+     <img style="height:12px" src="https://lh3.googleusercontent.com/proxy/PF_2pGmKWCveWc7PnVzvNE7MDTPvghuBAxcC4frOZEVKnPDjApAMk5Nb0_0-vZkHZLUlohRQddCNr--LY7IR2NOLjqXwzwq5ZDue3QeQOvaBbxJkuOCI_Z18b_pcfsissbaR0sJ85MmL6LgtAAkjcy-J9AA">tequila.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick="{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $('body div.hide').siblings().eq(1).remove();
+                    document.getElementById('tequilatest').pause();
+                    document.getElementById('tequilatest').currentTime = 0;
+                    };"
+        >X</button>
+    </div>
+
+    <audio loop id="tequilatest">
+        <source src="assets/tequila.mp3" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    &nbsp;<span id="tequilatime"></span>
+    <p style="float:right;">
+<button onclick
+        ="document.getElementById('tequilatest').play();" type="button">&nbsp;&nbsp;&nbsp;&nbsp;&#9658;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    <button onclick="document.getElementById('tequilatest').pause();" type="button">&nbsp;&#10074;&#10074;&nbsp;</button>
+    <button onclick="document.getElementById('tequilatest').pause(); document.getElementById('tequilatest').currentTime = 0;" type="button">&nbsp;&#9724;&nbsp;</button>
+    </p>
+</div>
+
+<div class="windowBox" id="faterleetestwav" style="width: 150px">
+    <div class="wh" id="faterleetestwavheader">
+     <img style="height:12px" src="https://lh3.googleusercontent.com/proxy/PF_2pGmKWCveWc7PnVzvNE7MDTPvghuBAxcC4frOZEVKnPDjApAMk5Nb0_0-vZkHZLUlohRQddCNr--LY7IR2NOLjqXwzwq5ZDue3QeQOvaBbxJkuOCI_Z18b_pcfsissbaR0sJ85MmL6LgtAAkjcy-J9AA">faterlee.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick="{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $('body div.hide').siblings().eq(1).remove();
+                    document.getElementById('faterleetest').pause();
+                    document.getElementById('faterleetest').currentTime = 0;
+                    };"
+        >X</button>
+    </div>
+
+    <audio loop id="faterleetest">
+        <source src="assets/faterlee.mp3" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    &nbsp;<span id="faterleetime"></span>
+    <p style="float:right;">
+<button onclick
+        ="document.getElementById('faterleetest').play();" type="button">&nbsp;&nbsp;&nbsp;&nbsp;&#9658;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    <button onclick="document.getElementById('faterleetest').pause();" type="button">&nbsp;&#10074;&#10074;&nbsp;</button>
+    <button onclick="document.getElementById('faterleetest').pause(); document.getElementById('faterleetest').currentTime = 0;" type="button">&nbsp;&#9724;&nbsp;</button>
+    </p>
+</div>
+
+<div class="windowBox" id="unitytestwav" style="width: 150px">
+    <div class="wh" id="unitytestwavheader">
+     <img style="height:12px" src="https://lh3.googleusercontent.com/proxy/PF_2pGmKWCveWc7PnVzvNE7MDTPvghuBAxcC4frOZEVKnPDjApAMk5Nb0_0-vZkHZLUlohRQddCNr--LY7IR2NOLjqXwzwq5ZDue3QeQOvaBbxJkuOCI_Z18b_pcfsissbaR0sJ85MmL6LgtAAkjcy-J9AA">unity.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick="{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $('body div.hide').siblings().eq(1).remove();
+                    document.getElementById('unitytest').pause();
+                    document.getElementById('unitytest').currentTime = 0;
+                    };"
+        >X</button>
+    </div>
+
+    <audio loop id="unitytest">
+        <source src="assets/unity.mp3" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    &nbsp;<span id="unitytime"></span>
+    <p style="float:right;">
+<button onclick
+        ="document.getElementById('unitytest').play();" type="button">&nbsp;&nbsp;&nbsp;&nbsp;&#9658;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    <button onclick="document.getElementById('unitytest').pause();" type="button">&nbsp;&#10074;&#10074;&nbsp;</button>
+    <button onclick="document.getElementById('unitytest').pause(); document.getElementById('unitytest').currentTime = 0;" type="button">&nbsp;&#9724;&nbsp;</button>
+    </p>
+</div>
+
+<div class="windowBox" id="thepirateandthedancertestwav" style="width: 150px">
+    <div class="wh" id="thepirateandthedancertestwavheader">
+     <img style="height:12px" src="https://lh3.googleusercontent.com/proxy/PF_2pGmKWCveWc7PnVzvNE7MDTPvghuBAxcC4frOZEVKnPDjApAMk5Nb0_0-vZkHZLUlohRQddCNr--LY7IR2NOLjqXwzwq5ZDue3QeQOvaBbxJkuOCI_Z18b_pcfsissbaR0sJ85MmL6LgtAAkjcy-J9AA">thepirateandthedancer.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick="{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $('body div.hide').siblings().eq(1).remove();
+                    document.getElementById('thepirateandthedancertest').pause();
+                    document.getElementById('thepirateandthedancertest').currentTime = 0;
+                    };"
+        >X</button>
+    </div>
+
+    <audio loop id="thepirateandthedancertest">
+        <source src="assets/thepirateandthedancer.mp3" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    &nbsp;<span id="thepirateandthedancertime"></span>
+    <p style="float:right;">
+<button onclick
+        ="document.getElementById('thepirateandthedancertest').play();" type="button">&nbsp;&nbsp;&nbsp;&nbsp;&#9658;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    <button onclick="document.getElementById('thepirateandthedancertest').pause();" type="button">&nbsp;&#10074;&#10074;&nbsp;</button>
+    <button onclick="document.getElementById('thepirateandthedancertest').pause(); document.getElementById('thepirateandthedancertest').currentTime = 0;" type="button">&nbsp;&#9724;&nbsp;</button>
+    </p>
+</div>
+
+<div class="windowBox" id="underworldtestwav" style="width: 150px">
+    <div class="wh" id="underworldtestwavheader">
+     <img style="height:12px" src="https://lh3.googleusercontent.com/proxy/PF_2pGmKWCveWc7PnVzvNE7MDTPvghuBAxcC4frOZEVKnPDjApAMk5Nb0_0-vZkHZLUlohRQddCNr--LY7IR2NOLjqXwzwq5ZDue3QeQOvaBbxJkuOCI_Z18b_pcfsissbaR0sJ85MmL6LgtAAkjcy-J9AA">underworld.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick="{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $('body div.hide').siblings().eq(1).remove();
+                    document.getElementById('underworldtest').pause();
+                    document.getElementById('underworldtest').currentTime = 0;
+                    };"
+        >X</button>
+    </div>
+
+    <audio loop id="underworldtest">
+        <source src="assets/underworld.mp3" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    &nbsp;<span id="underworldtime"></span>
+    <p style="float:right;">
+<button onclick
+        ="document.getElementById('underworldtest').play();" type="button">&nbsp;&nbsp;&nbsp;&nbsp;&#9658;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    <button onclick="document.getElementById('underworldtest').pause();" type="button">&nbsp;&#10074;&#10074;&nbsp;</button>
+    <button onclick="document.getElementById('underworldtest').pause(); document.getElementById('underworldtest').currentTime = 0;" type="button">&nbsp;&#9724;&nbsp;</button>
+    </p>
+</div>
+
+<div class="windowBox" id="runningwaterstestwav" style="width: 150px">
+    <div class="wh" id="runningwaterstestwavheader">
+     <img style="height:12px" src="https://lh3.googleusercontent.com/proxy/PF_2pGmKWCveWc7PnVzvNE7MDTPvghuBAxcC4frOZEVKnPDjApAMk5Nb0_0-vZkHZLUlohRQddCNr--LY7IR2NOLjqXwzwq5ZDue3QeQOvaBbxJkuOCI_Z18b_pcfsissbaR0sJ85MmL6LgtAAkjcy-J9AA">runningwaters.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick="{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $('body div.hide').siblings().eq(1).remove();
+                    document.getElementById('runningwaterstest').pause();
+                    document.getElementById('runningwaterstest').currentTime = 0;
+                    };"
+        >X</button>
+    </div>
+
+    <audio loop id="runningwaterstest">
+        <source src="assets/runningwaters.mp3" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    &nbsp;<span id="runningwaterstime"></span>
+    <p style="float:right;">
+<button onclick
+        ="document.getElementById('runningwaterstest').play();" type="button">&nbsp;&nbsp;&nbsp;&nbsp;&#9658;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    <button onclick="document.getElementById('runningwaterstest').pause();" type="button">&nbsp;&#10074;&#10074;&nbsp;</button>
+    <button onclick="document.getElementById('runningwaterstest').pause(); document.getElementById('runningwaterstest').currentTime = 0;" type="button">&nbsp;&#9724;&nbsp;</button>
+    </p>
+</div>
+
+<div class="windowBox" id="elatantestwav" style="width: 150px">
+    <div class="wh" id="elatantestwavheader">
+     <img style="height:12px" src="https://lh3.googleusercontent.com/proxy/PF_2pGmKWCveWc7PnVzvNE7MDTPvghuBAxcC4frOZEVKnPDjApAMk5Nb0_0-vZkHZLUlohRQddCNr--LY7IR2NOLjqXwzwq5ZDue3QeQOvaBbxJkuOCI_Z18b_pcfsissbaR0sJ85MmL6LgtAAkjcy-J9AA">elatan.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick="{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $('body div.hide').siblings().eq(1).remove();
+                    document.getElementById('elatantest').pause();
+                    document.getElementById('elatantest').currentTime = 0;
+                    };"
+        >X</button>
+    </div>
+
+    <audio loop id="elatantest">
+        <source src="assets/elatan.mp3" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    &nbsp;<span id="elatantime"></span>
+    <p style="float:right;">
+<button onclick
+        ="document.getElementById('elatantest').play();" type="button">&nbsp;&nbsp;&nbsp;&nbsp;&#9658;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    <button onclick="document.getElementById('elatantest').pause();" type="button">&nbsp;&#10074;&#10074;&nbsp;</button>
+    <button onclick="document.getElementById('elatantest').pause(); document.getElementById('elatantest').currentTime = 0;" type="button">&nbsp;&#9724;&nbsp;</button>
+    </p>
+</div>
+
+<div class="windowBox" id="somethingelatedtestwav" style="width: 150px">
+    <div class="wh" id="somethingelatedtestwavheader">
+     <img style="height:12px" src="https://lh3.googleusercontent.com/proxy/PF_2pGmKWCveWc7PnVzvNE7MDTPvghuBAxcC4frOZEVKnPDjApAMk5Nb0_0-vZkHZLUlohRQddCNr--LY7IR2NOLjqXwzwq5ZDue3QeQOvaBbxJkuOCI_Z18b_pcfsissbaR0sJ85MmL6LgtAAkjcy-J9AA">somethingelated.mp3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button
+                type="buttonClose"
+                style="line-height: 12px;
+                 width: 18px;
+                 font-size: 8pt;
+                 margin-right: 2px;
+                 position:absolute;
+                 right:2px;"
+                onclick="{
+                    $(this.parentNode.parentNode).fadeOut(50);
+                    $('body div.hide').siblings().eq(1).remove();
+                    document.getElementById('somethingelatedtest').pause();
+                    document.getElementById('somethingelatedtest').currentTime = 0;
+                    };"
+        >X</button>
+    </div>
+
+    <audio loop id="somethingelatedtest">
+        <source src="assets/somethingelated.mp3" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    &nbsp;<span id="somethingelatedtime"></span>
+    <p style="float:right;">
+<button onclick
+        ="document.getElementById('somethingelatedtest').play();" type="button">&nbsp;&nbsp;&nbsp;&nbsp;&#9658;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    <button onclick="document.getElementById('somethingelatedtest').pause();" type="button">&nbsp;&#10074;&#10074;&nbsp;</button>
+    <button onclick="document.getElementById('somethingelatedtest').pause(); document.getElementById('somethingelatedtest').currentTime = 0;" type="button">&nbsp;&#9724;&nbsp;</button>
+    </p>
+</div>
+
+<div class="tg">
+    <div class="wh">Windows 95</div>
+    <fileButton><div><img style="height:18px" src="https://telegram-stickers.github.io/public/stickers/windows-95/4.png">&nbspFile Explorer</div></fileButton>
+    <internetButton><div><img style="height:18px" src="https://daks2k3a4ib2z.cloudfront.net/57b0b52271bead8852aa6781/57c0809af6bf29ec384916b2_Internet%20Explorer.png">&nbspThe Internet</div></internetButton>
+    <solitaireButton><div><img style="height:18px" src="assets/solitaire_icon.png">&nbspSolitaire</div></solitaireButton>
+    <sweepButton><div><img style="height:18px" src="http://www.sireasgallery.com/iconset/minesweeper/Mine2_024x024_32.png">&nbspMinesweeper</div></sweepButton>
+    <hr>
+</div>
+
+
+
+
+<!----
+
+Commented out pop up window cos it was weird
+
+<div class="hide"></div>
+<div class="window">
+    <div class="wh">Copying Files...</div>
+    <div class="text">
+        Source:<br>
+        A:\sololearn.ex_<br>
+        Destination:<br>
+        c:\windows\SYSTEM\my_brain.exe
+    </div>
+    <div class="pb">
+        <div class="rect">
+            <div class="a"></div>
+        </div>
+    </div>
+    <div class="prct"></div>
+    <button><div>Cancel</div></button>
+</div>
+
+---->
+
+
+
+<footer>
+<div class="toolbar">
+    <div class="wnds">Start</div>
+    <div class="time"></div>
+    <img style="position:absolute; width:16px; bottom:4px; left:5px; transform:rotate(-20deg);" src="http://www.andymercer.net/www/wp-content/uploads/2012/02/winlogo3.png">
+
+</div>
+</footer>
+
+
+
+<!-- jQuery 1.7+ -->
+<script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+
+<!-- Clippy.js -->
+<script src="clippy/build/clippy.min.js"></script>
+
+<script>
+
+var width = (window.innerWidth > 0) ? window.innerWidth : document.documentElement.clientWidth;
+if (width < 1400) {
+    window.location = "bsod.html"
+}
+
+let freezeClick = true;
+let startMenuEvent = false;
+
+
+
+function run(agent) {
+  agent.moveTo(screen.width*0.82, screen.height*0.7);
+  agent.show();
+
+
+  setTimeout(function() {
+    agent.speak("oh");
+    setTimeout(function() {
+    agent.play("Writing");
+    agent.speak("Is this... Windows 95?");
+    setTimeout(function() {
+    agent.speak("I think we went too far.");
+    setTimeout(function() {
+    agent.speak("I... may have pressed the wrong button.");
+    setTimeout(function() {
+    agent.speak("I'll try to work this out, you... stay right there.");
+    setTimeout(function() {
+    agent.hide(0);
+    document.body.style.pointerEvents = "auto";
+}, 4000);
+}, 4000);
+}, 4000);
+}, 10000);
+}, 1000);
+}, 2000);
+}
+
+function readTextFile(file)
+{
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+            }
+        }
+    }
+    rawFile.send(null);
+}
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  clippy.load('Clippy', run);
+});
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+var z = 0;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+
+// Make the DIV element draggable:
+dragElement(document.getElementById("fileExplorer"));
+dragElement(document.getElementById("juneeventwebsite"));
+dragElement(document.getElementById("solitaire"));
+dragElement(document.getElementById("minesweeper"));
+dragElement(document.getElementById("ballpng"));
+dragElement(document.getElementById("boatpng"));
+dragElement(document.getElementById("ballpng"));
+dragElement(document.getElementById("chairpng"));
+dragElement(document.getElementById("marqueepng"));
+dragElement(document.getElementById("tentaclepng"));
+dragElement(document.getElementById("treepng"));
+dragElement(document.getElementById("framepng"));
+dragElement(document.getElementById("978026166068711png"));
+dragElement(document.getElementById("rvftujponbslwfrvbmtpng"));
+dragElement(document.getElementById("2019mp4"));
+dragElement(document.getElementById("2018mp4"));
+dragElement(document.getElementById("2016mp4"));
+dragElement(document.getElementById("whitenoisetestwav"));
+dragElement(document.getElementById("noisetestwav"));
+dragElement(document.getElementById("elatantestwav"));
+dragElement(document.getElementById("faterleetestwav"));
+dragElement(document.getElementById("lipstestwav"));
+dragElement(document.getElementById("otannenbaumtestwav"));
+dragElement(document.getElementById("runningwaterstestwav"));
+dragElement(document.getElementById("siestatestwav"));
+dragElement(document.getElementById("somethingelatedtestwav"));
+dragElement(document.getElementById("tequilatestwav"));
+dragElement(document.getElementById("thepirateandthedancertestwav"));
+dragElement(document.getElementById("underworldtestwav"));
+dragElement(document.getElementById("unitytestwav"));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    // if present, the header is where you move the DIV from:
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    // otherwise, move the DIV from anywhere inside the DIV:
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+    elmnt.style.zIndex = z.toString();
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+
+
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+
+
+setInterval(onTimerTick, 1000);
+
+function onTimerTick(){
+    //generates the current time
+    var d=new Date();
+    var mins = ('0'+d.getMinutes()).slice(-2);
+    $("div.time").text(d.getHours()+":"+mins);
+    z = z+1;
+
+}
+
+setInterval(noisetimerupdate, 10);
+
+function noisetimerupdate() {
+    titles = ["whitenoise", "noise", "lips", "elatan", "faterlee", "otannenbaum", "runningwaters", "siesta", "somethingelated", "tequila", "thepirateandthedancer", "underworld", "unity"]
+    for (i = 0; i < titles.length; i++){
+          document.getElementById(titles[i]+"time").innerHTML = document.getElementById(titles[i]+"test").currentTime.toFixed(2);
+    }
+}
+
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,340 @@
+/*Global Style
+*************************************/
+*{
+    margin:0;
+    padding:0;
+    user-select:none;
+}
+body{
+    background-color:#008181;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+}
+#width{
+margin=auto;
+}
+
+/*Copying Window Style
+*************************************/
+div.window{
+    background-color:#C0C0C0;
+    font-family:VT323;
+    width:350px;
+    height:250px;
+    margin:auto;
+    margin-top:40px;
+    border:4px groove white;
+    border-right-color:rgba(0,0,0,0.2);
+    border-bottom-color:rgba(0,0,0,0.2);
+}
+
+div.website{
+    position: relative;
+    z-index: 100 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#00ffff;
+    text:#ff1493
+    link:#0000ff
+    alink:#800080
+    width:100vw;
+    height:calc(100vh - 25px);
+    border-right-color:rgba(0,0,0,0.2);
+    border-bottom-color:rgba(0,0,0,0.2);
+}
+
+div.wh{
+    background-color:#008;
+    font-family:VT323;
+    color:#feffff;
+    padding:4px;
+    font-weight:500;
+}
+div.wb{
+    background-color:#FF00FF;
+    font-family:VT323;
+    color:#feffff;
+    padding:4px;
+    font-weight:500;
+}
+div.text{
+    margin:14px;
+    font-family:VT323;
+    line-height:24px;
+}
+div.pb{
+    position:relative;
+    width:320px;
+    font-family:VT323;
+    height:26px;
+    background-color:#feffff;
+    margin:auto;
+    margin-top:10px;
+    border:4px groove #eee;
+    line-height:26px;
+    font-size:25px;
+}
+buttonStyled{
+    display:block;
+    margin:auto;
+    font-family:VT323;
+    margin-top:20px;
+    border:solid white;
+    border-width:1.5px 0 0 1.5px;
+    box-shadow:0 0 0 2px black;
+    background-color:transparent;
+    padding:2px;
+    font-size:20px;
+}
+buttonStyled:focus{
+    outline:none !important;
+    font-family:VT323;
+}
+buttonStyled:active{
+    box-shadow:0 0 0 1px black;
+    font-family:VT323;
+    transform:scale(0.96);
+}
+
+buttonStyled div{
+    font-family:VT323;
+    border:1px dotted black;
+    padding:0 20px;
+}
+buttonClose{
+    display:block;
+    margin:auto;
+    font-family:VT323;
+    margin-top:20px;
+    border:solid white;
+    border-width:1.5px 0 0 1.5px;
+    box-shadow:0 0 0 2px black;
+    background-color:transparent;
+    padding:2px;
+    font-size:20px;
+}
+buttonClose:focus{
+    outline:none !important;
+    font-family:VT323;
+}
+buttonClose:active{
+    box-shadow:0 0 0 1px black;
+    font-family:VT323;
+    transform:scale(0.96);
+}
+
+buttonClose div{
+    font-family:VT323;
+    border:1px dotted black;
+    padding:0 20px;
+}
+div.rect{
+    font-family:VT323;
+    width:100%;
+    height:100%;
+    position:absolute;
+    overflow:hidden;
+}
+div.rect .a{
+    font-family:VT323;
+    display:inline-block;
+    background-color:#008;
+    height:100%;
+}
+div.prct{
+    font-family:VT323;
+    text-align:center;
+    color:black;
+    position:absolute;
+    top:197.5px;
+    left:50%;
+    margin-left:-12px;
+    font-size:20px;
+}
+div.hide{
+    font-family:VT323;
+    color:#055;
+    text-align:center;
+    font-size:6em;
+    position:absolute;
+    top:20%;
+    z-index:-1;
+    animation:chcol 3s ease 0s infinite normal;
+}
+@keyframes chcol{
+    font-family:VT323;
+    50%{color:hsl(0,80%,30%);}
+}
+
+/*Toolbar Style
+*************************************/
+div.toolbar{
+    font-family:VT323;
+    background-color:#C0C0C0;
+    width:100%;
+    height:25px;
+    position:absolute;
+    bottom:0;
+    border-top:2px groove white;
+    padding-top:2.3px;
+    padding-left:2.3px;
+    box-sizing:border-box;
+
+}
+div.wnds{
+    font-family:VT323;
+    background-color:#C0C0C0;
+    height:70%;
+    width:50px;
+    border:2px groove white;
+    box-shadow:0 0 0 1px black;
+    text-align:right;
+}
+div.wnds:active{
+    font-family:VT323;
+    transform:scale(0.95);
+}
+div.time{
+    font-family:VT323;
+    background-color:#B8B8B8;
+    position:absolute;
+    right:2.2px;
+    top:2.45px;
+    height:70%;
+    width:40px;
+    border:1px solid white;
+    border-top-color:black;
+    border-left-color:black;
+    text-align:center;
+}
+div.tg{
+    font-family:VT323;
+    position:absolute;
+    z-index: 200 !important;
+    background-color:#C0C0C0;
+    width:15%;
+    height:45%;
+    top:calc(55% - 27px);
+    border:2px groove white;
+    border-bottom-width:0;
+}
+div.windowBox{
+    position:absolute;
+    left:20%;
+    background-color:#C0C0C0;
+    border:2px groove white;
+    border-bottom-width:4px;
+}
+
+
+
+/*Popup widget Style
+*************************************/
+hr{
+    font-family:VT323;
+    margin-top:0px;
+
+}
+div.win95{
+    font-family:VT323;
+    background-color:#00FFFF;
+    font-size:40px;
+    text-align:center;
+    overflow:auto;
+}
+div.floatBox{
+    float:left;
+    width:20vw;
+    background-color:#C0C0C0;
+    border:2px groove white;
+    border-bottom-width:4px;
+}
+div.whiteBox{
+    background-color:#FFFFFF;
+    width:100%;
+    height:100%;
+}
+fileButton{
+    font-family:VT323;
+    display:block;
+    margin:auto;
+    margin-top:20px;
+    border:solid white;
+    border-width:1.5px 0 0 1.5px;
+    box-shadow:0 0 0 2px black;
+    background-color:transparent;
+    padding:2px;
+    font-size:20px;
+}
+
+internetButton{
+    font-family:VT323;
+    display:block;
+    margin:auto;
+    margin-top:20px;
+    border:solid white;
+    border-width:1.5px 0 0 1.5px;
+    box-shadow:0 0 0 2px black;
+    background-color:transparent;
+    padding:2px;
+    font-size:20px;
+}
+
+solitaireButton{
+    font-family:VT323;
+    display:block;
+    margin:auto;
+    margin-top:20px;
+    border:solid white;
+    border-width:1.5px 0 0 1.5px;
+    box-shadow:0 0 0 2px black;
+    background-color:transparent;
+    padding:2px;
+    font-size:20px;
+}
+
+sweepButton{
+    font-family:VT323;
+    display:block;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    border:solid white;
+    border-width:1.5px 0 0 1.5px;
+    box-shadow:0 0 0 2px black;
+    background-color:transparent;
+    padding:2px;
+    font-size:20px;
+}
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible:after {
+  content: "\002B"; /* Unicode character for "plus" sign (+) */
+}
+
+.active:after {
+  content: "\2212"; /* Unicode character for "minus" sign (-) */
+}
+
+
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+
+----------------------

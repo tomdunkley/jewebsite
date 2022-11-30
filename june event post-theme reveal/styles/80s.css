@@ -1,0 +1,73 @@
+body {
+    background-image: url('assets/80sbackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+row {
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 2%;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
+.themechange {
+    position: absolute;
+    right: 10;
+    bottom: 2%;
+    display: grid;
+    cursor: pointer;
+}
+
+ticketprice {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #000000;
+    border-color: #000000;
+    color: #FFFFFF;
+    border-style: solid;
+    border-width: thick;
+    width: 200px;
+    word-wrap: break-word;
+}
+
+a {
+    color: #00FF00;
+    text-decoration: none;
+}
+
+img {
+}
+
+.icon {filter: invert(100%);}
+.responsive {
+  height: auto;
+  width: 50%;
+}
+
+.logo {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
